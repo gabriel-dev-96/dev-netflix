@@ -23,7 +23,6 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
         host: 'http://www.youtube.com',
         playerVars:{
             autoplay: 1,
-            origin: 'http://localhost:3000/',
         },
     }
 
